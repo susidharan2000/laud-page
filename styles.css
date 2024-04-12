@@ -1,0 +1,92 @@
+.margin{
+    margin-top: 200px;
+}
+section{
+    background-color: black;
+}
+h1{
+    font-size: 4rem;
+    font-family: "Nunito Sans", sans-serif;
+}
+.nav-link{
+    color: rgb(250, 248, 248);
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+.description{
+    font-weight: 200;
+}
+.content-title{
+    font-size: x-large;
+    font-weight: 100;
+    font-family: "Nunito Sans", sans-serif;
+}
+.lead{
+font-size: 0.8rem;
+}
+.wiki-btn{
+    border-radius: 3px;
+    border: none;
+    padding: 8px 10px;
+}
+.vidoe-btn{
+    border-radius: 3px;
+    border: none;
+    padding: 8px 10px;
+    background-color: red;
+    color: white;
+}
+.book-btn{
+    border-radius: 3px;
+    border: none;
+    padding: 8px 10px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+}
+.quote{
+    font-size: larger;
+}
+span{
+    font-family: "Nunito Sans", sans-serif;
+}
+.year{
+    font-size:smaller;
+    font-weight: 100;
+}
+.para{
+    font-size:small;
+    font-weight: 200;
+}
+.grey-text-footer{
+    color: rgb(184, 184, 184);
+}
+.blue-text-footer{
+    color: rgb(85, 138, 250);
+}
+
+.footer-text{
+    font-weight: 200;
+    font-family: "Nunito Sans", sans-serif;
+}
+@media(max-width:990px){
+    .vr{
+        display: none;
+    }
+}
+
+@media(max-width:535px){
+    h1{
+        font-size: 2.7rem;
+        font-family: "Nunito Sans", sans-serif;
+    }
+}
+
+@media(max-width:365px){
+    h1{
+        font-size: 2.5rem;
+        font-family: "Nunito Sans", sans-serif;
+    }
+    .nav-link{
+        font-size: 0.9rem;
+    }
+}
