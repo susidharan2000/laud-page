@@ -25,23 +25,31 @@ h1{
 font-size: 0.8rem;
 }
 .wiki-btn{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    background-color: rgb(213, 213, 213);
     border-radius: 3px;
     border: none;
     padding: 8px 10px;
 }
 .vidoe-btn{
+    text-decoration: none;
     border-radius: 3px;
     border: none;
     padding: 8px 10px;
-    background-color: red;
+    background-color: rgb(255, 42, 42);
     color: white;
+    text-align: center;
 }
 .book-btn{
+    text-decoration: none;
     border-radius: 3px;
     border: none;
     padding: 8px 10px;
     background-color: rgb(255, 136, 0);
     color: white;
+    text-align: center;
 }
 .quote{
     font-size: larger;
